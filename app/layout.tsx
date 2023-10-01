@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "AKshaya Biswal | Developer",
+  title: "Akshaya Biswal | Developer",
   description: "Akshaya is a frontend developer with 5 years of experience.",
 };
 
