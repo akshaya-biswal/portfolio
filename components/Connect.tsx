@@ -26,23 +26,15 @@ export default function Connect() {
           delay: 0.1,
         }}
       >
-        <a
-          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
-          href="https://linkedin.com"
-          target="_blank"
-        >
+        <a className={style} href="https://linkedin.com" target="_blank">
           <BsLinkedin />
         </a>
 
-        <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
-          href="https://github.com"
-          target="_blank"
-        >
+        <a className={style} href="https://github.com" target="_blank">
           <FaGithubSquare />
         </a>
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
+          className={style}
           href="https://www.instagram.com/akshaya_biswal_/"
           target="_blank"
         >
@@ -52,3 +44,6 @@ export default function Connect() {
     </section>
   );
 }
+
+const style =
+  "bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack";
