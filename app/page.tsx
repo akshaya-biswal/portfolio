@@ -4,6 +4,7 @@ import Intro from "@/components/Intro";
 import SectionDivider from "@/components/SectionDivider";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
+import Connect from "@/components/Connect";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Projects />
       <Skills />
       <Experience />
+      <Connect />
     </main>
   );
 }
