@@ -26,11 +26,19 @@ export default function Connect() {
           delay: 0.1,
         }}
       >
-        <a className={style} href="https://linkedin.com" target="_blank">
+        <a
+          className={style}
+          href="https://www.linkedin.com/in/akshaya-biswal/"
+          target="_blank"
+        >
           <BsLinkedin />
         </a>
 
-        <a className={style} href="https://github.com" target="_blank">
+        <a
+          className={style}
+          href="https://github.com/akshaya-biswal"
+          target="_blank"
+        >
           <FaGithubSquare />
         </a>
         <a
