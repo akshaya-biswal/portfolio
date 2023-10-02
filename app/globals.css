@@ -17,3 +17,7 @@ html.dark {
 .vertical-timeline--animate .vertical-timeline-element-content.is-hidden {
   visibility: visible !important;
 }
+
+.vertical-timeline--animate .vertical-timeline-element-icon.is-hidden {
+  visibility: visible !important;
+}

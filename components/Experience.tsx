@@ -51,29 +51,3 @@ export default function Experience() {
     </section>
   );
 }
-
-{
-  /* <VerticalTimeline lineColor="">
-        <VerticalTimelineElement
-          contentStyle={{
-            background: "#f3f4f6",
-            boxShadow: "none",
-            border: "1px solid rgba(0, 0, 0, 0.05)",
-            textAlign: "left",
-            padding: "1.3rem 2rem",
-          }}
-          contentArrowStyle={{
-            borderRight: "0.4rem solid #9ca3af",
-          }}
-          date="1121"
-          icon="1212"
-          iconStyle={{
-            background: "white",
-            fontSize: "1.5rem",
-          }}
-        >
-          <h3 className="">32323</h3>
-          <p className="">location</p>
-          <p className="">description</p>
-        </VerticalTimelineElement> */
-}
