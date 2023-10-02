@@ -13,3 +13,7 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+.vertical-timeline--animate .vertical-timeline-element-content.is-hidden {
+  visibility: visible !important;
+}
