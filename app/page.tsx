@@ -5,6 +5,7 @@ import SectionDivider from "@/components/SectionDivider";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Connect from "@/components/Connect";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Skills />
       <Experience />
       <Connect />
+      <Footer />
     </main>
   );
 }
