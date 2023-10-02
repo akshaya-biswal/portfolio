@@ -29,7 +29,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://appsembler.com/wp-content/uploads/2023/07/beemarrie_developer_marketing_computer_strategy_deda1786-e5df-4461-957a-01d758880ac0.png"
+              src="/profile4.jpg"
               width={180}
               height={180}
               quality={95}
