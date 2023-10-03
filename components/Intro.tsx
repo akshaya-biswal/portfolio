@@ -29,10 +29,10 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/profile4.jpg"
+              src="https://avatars.githubusercontent.com/u/90085739?v=4"
               width={180}
               height={180}
-              quality={95}
+              // quality={95}
               priority={true}
               className="h-30 w-30 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
               alt="Akshaya Biswal"
